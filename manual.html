@@ -1,0 +1,77 @@
+<!--
+    authors: 
+    script: Maciej Nowak
+    html: Arkadiusz Wieczorek
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Ballistic Curve - Maciej Nowak & Arkadiusz Wieczorek </title>
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="author" content="Maciej Nowak & Arkadiusz Wieczorek" />
+    
+    <meta name="robots" content="all" />
+    <meta name="viewport" content="width=device-width" />
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/fonts.css" rel="stylesheet" type="text/css">
+    <link href="/img/favicon.ico" rel="shortcut icon" type="image/x-icon"  />
+</head>
+<body>
+
+<div class="wrapper">
+
+<header class="header">
+    <div class="logo">
+        <div class="square">
+            <div class="innerSquare"></div>
+        </div>
+        <h1>Ballistic Curve</h1>
+        <h2>Simulation</h2>
+        </div>
+
+    <div class="buttons cieniowane">    
+        <a href='index.html' class="tab active">Program</a>
+        <a href='manual.html' class="tab">User manual</a> 
+    </div>
+
+</header>
+
+
+
+<div class="content" >
+
+<!--{{zawartosc}}-->
+<text><animation>
+<t>Jak to działa?</t><br><br></br>
+
+Rzut ukośny z uwzględenieniem oporu powietrza, inaczej nazywany krzywą balistyczną, jest niesymetryczna krzywą, po której porusza się punkt materialny w przestrzeni. Wyrzucony, czy też wystrzelony pod pewnym kątem z powierzchni Ziemi. 
+Jeśli pomijamy w tym rzucie opór powietrza, to otrzymujemy symetryczną parabolę. Rzut ten w praktyce może przestawiać tor lotu pocisku od punktu wylotu z lufy do momentu (punktu) upadku. 
+</br></br>
+W programie należy podać wartości zmiennych grawitacji (m/s^2), współczynnik oporu, startowe współrzędne x0 i y0 oraz przyspieszenia dla wektorów (m/s). Po wprowadzeniu wybranych wartości należy nacisnąć przycisk <strong>CALCULATE</strong>. Zostanie wyrysowany wykres, który przedstawia krzywą balistyczną - odpowiadającą wcześniej wspomnianemu, przykładowemu torowi lotu pocisku. 
+</br></br>
+Poniżej wykresu zostaną przedstawione wyniki eksperymentu.</br>
+Czas rzutu podany w sekundach, maksymalną wysokość jaką osiąga punkt materialny podczas rzutu w metrach, oraz przebyty dystans w metrach.
+</br>
+</br>
+</br>
+<t>Opis zmiennych:</t></br></br>
+Grawitacja - domyślne przyciąganie ziemskie (m/s^2)</br>
+Opór - współczynnik oporu gęstości środowiska</br>
+x0 - startowa współrzędna X</br>
+y0 - startowa współrzędna Y</br>
+Vx0 - prędkość dla wektora X (m/s)</br>
+Vy0 - prędkość dla wektora Y (m/s)</br>
+</div>
+
+</animation></text>
+
+
+<footer class="footer">Authors: Maciej Nowak & Arkadiusz Wieczorek</footer>
+
+
+
+</div>
+</body>
+</html>

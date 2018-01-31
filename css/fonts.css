@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Roboto Condensed'), local('Roboto-Condensed'), local('RobotoCondensed'), url(RobotoCondensed-Light.woff) format('woff');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Source Sans Pro'), local('Source-Sans-Pro'), local('SourceSansPro'), url(SourceSansPro-Light.woff) format('woff');
+}
+@font-face {
+  font-family: 'Cabin Condensed Regular';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Cabin Condensed Regular'), local('Cabin-Condensed-Regular'), local('CabinCondensedRegular'), url(CabinCondensed-Regular.woff) format('woff');
+} 
+@font-face {
+  font-family: 'ComicNeue Angular Light';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Comic Neue Angular Light' ), local(' ComicNeueAngularLight'), local('Comic-Neue-Angular-Light') , url(ComicNeue-Angular-Light.woff) format('woff');
+}
+

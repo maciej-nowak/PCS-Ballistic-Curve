@@ -1,0 +1,387 @@
+* {  margin: 0px; padding: 0px; }
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+  display: block;
+}
+
+body{
+	max-width: 800px;
+	margin: 20px auto;
+	
+	font-size: 1.0rem;
+	color: #555;
+	background: #E9E9E9;
+}
+
+/*logo----------------------------------------------------------*/
+.logo{
+	position: relative;
+	display: inline-block;
+	width: auto;
+	height: auto;
+}
+
+.square{
+	position: relative;
+	top: 0.2em;
+
+	display: inline-block;
+	background-color: #666;
+	
+	width: 2.70rem;
+	height: 2.70rem;
+	margin-right: 0.6rem;
+
+	border-bottom-left-radius: 1rem;
+	border-top-right-radius: 1rem;
+	-moz-border-radius-bottom-left: 1rem;
+	-moz-border-radius-top-right: 1rem; 
+	-webkit-border-bottom-left-radius: 1rem;
+	-webkit-border-top-right-radius: 1rem;
+
+	box-shadow: 0rem 0rem 8rem 2rem #FFF;
+	z-index: -1;
+}
+
+.innerSquare{
+	position: relative;
+
+	width: 1.35rem;
+	height: 1.35rem;
+
+	background-color: #298cad;
+	border-bottom-right-radius: 0.9rem;
+	-moz-border-bottom-right-radius: 0.9rem;
+	-webkit-border-bottom-right-radius: 0.9rem;
+}
+
+.logoImg{
+	position: relative;
+
+	display: inline-block;
+	width: auto;
+	height: auto;
+	top: 0.32em;
+	left: 0.16em
+}
+
+h1{
+	font-family: 'ComicNeue Angular Light', sans-serif;
+	font-size: 2.6rem;
+	font-style: normal;
+
+	color: #666;
+	display: inline-block;
+}
+
+h2{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 1rem;
+	font-style: normal;
+	width: 2rem;
+	
+	color: #666;
+	display: inline-block;
+}
+
+t{
+	font-size: 1.4rem;
+	font-style: normal;
+	vertical-align: middle;
+	text-align: center;
+	color: #666;
+}
+/*animations----------------------------------------------------------*/
+
+text{
+	position: relative;
+	transition: all 200ms;
+	left: 0;
+	}
+
+@-webkit-keyframes slide{
+	from{
+		color:transparent;
+		padding-left:0px;
+		}
+	to{
+
+		padding-left:0;
+		color: #666;
+		}
+	}
+animation{
+		-webkit-animation: slide 400ms;
+		-webkit-animation-fill-mode:both;
+		animation
+	}
+
+animation:nth-child(){
+		-webkit-animation-delay:200ms;
+	}
+
+/*animations----------------------------------------------------------*/
+
+.cieniowane{
+	box-shadow: 2px 2px 7px 0px rgba(0, 0, 0, 0.06);
+}
+
+.wrapper{
+	position: relative;
+	
+}
+
+/*buttons----------------------------------------------------------*/
+
+.buttons {
+	
+	margin-top: 0.6rem;
+	display: table;
+	width: 100%;
+}
+
+.tab {
+	font-family: 'Source Sans Pro', sans-serif;
+	height: 3.4rem;
+	top: 26px;
+	display:table-cell;
+	width:33%;
+	text-decoration: none;
+	text-align: center;
+	font-size: 1.5rem;
+	color: #FFF;
+	background: #298cad;
+	vertical-align: middle;
+	transition:all 400ms;
+}	
+
+.tab a {
+	text-decoration: none;
+}
+
+.tab:hover{
+    background: #70BAC7;
+}
+
+.tab.active{
+    background: #40ACBF;
+}
+
+/*content----------------------------------------------------------*/
+
+.content{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 1.1rem;
+
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	
+	padding-top: 50px;
+	padding-left: 75px;
+	padding-right: 75px;
+	height: 900px;
+	
+	background: #FFF;
+	border-bottom: #DDD 4px solid;
+}
+
+.photo{
+	position: relative;
+	display: inline-block;
+
+	font-size: 1.4rem;
+	color: #FFF;
+
+	background-color: #DDD;
+
+	/*responsive*/
+	max-width: 260px;
+	max-height: 400px;
+
+	width: 50%;
+	height: 75vw;
+
+	min-width: 26px;
+	min-height: 40px;
+
+	border-bottom-left-radius: 40%;
+	border-top-right-radius: 22%;     
+    -moz-border-bottom-left-radius: 40%;
+	-moz-border-top-right-radius: 22%;
+	-webkit-border-bottom-left-radius: 40%;
+	-webkit-border-top-right-radius: 22%;
+
+	border-bottom: #DDD 1.6vw solid;  
+	border-left: #FFF 2.2vw solid;
+
+	background-image: url("../img/cookie2.jpg");
+	background-size: cover;
+	top: -2.2rem;
+
+	text-align: center;
+	vertical-align: middle;
+	line-height: 200px;  
+
+	float: right;
+}
+
+.photoCircle{
+	position: relative;
+	display: inline-block;
+
+	font-size: 1.4rem;
+	color: #FFF;
+
+	background-color: #DDD;
+	width: 260px;
+	height: 260px;
+ 
+    border-radius: 100%;
+	-moz-border-radius: 100%;
+	-webkit-border-radius: 100%;
+	/*border-bottom: #DDD 0.8em solid;
+	border-left: #FFF 1.0em solid;*/
+	background-image: url("../img/cookie3.jpg");
+	top: -2.2rem;
+
+	text-align: center;
+	vertical-align: middle;
+	line-height: 200px;  
+
+	float: right;
+}
+
+.portfolio{
+	width: auto;
+	height: auto;
+	position: relative;
+
+}
+
+.leftSide{
+	width: 35%;
+	height: auto;
+	display: inline-block;
+	position: absolute;
+	left: 0px;
+}
+
+.rightSide{
+	width: 65%;
+	height: auto;
+	display: inline-block;
+	position: absolute;
+	left: 40%;
+}
+
+.rightSide_scr{
+	background-image: url("../img/web/m1.png");
+	background-size: cover;
+	
+	min-width: 40px;
+	min-height: 23px;
+	width: 40vw;
+	height: 20vw;
+	max-width: 400px;
+	max-height: 234px;
+}
+
+/*footer----------------------------------------------------------*/
+
+.footer{
+	font-family: 'Source Sans Pro', sans-serif;
+
+	margin-top: 1rem;
+	margin-bottom: 2rem;
+
+	color: #888	;
+	text-align: right;
+}
+
+/* mobile */
+@media all and (max-width: 46rem){
+	body{
+
+		width: 90%;
+		min-width: 240px;
+	}
+
+	img{
+		position: relative;
+		left: -0.5em;
+		-ms-transform: scale(0.8,0.8); /* IE 9 */
+		-webkit-transform: scale(0.8,0.8); /* Chrome, Safari, Opera */
+		transform: scale(0.8,0.8);
+	}
+
+	.square{
+		top: 0em;
+		left: 0px;
+		width: 2.0rem;
+		height: 2.0rem;
+		margin-right: 0.2rem;
+	}
+
+	.innerSquare{
+		width: 1.0rem;
+		height: 1.0rem;
+		left: 0.1em;
+	}
+
+	.logoImg{
+		left: 0.1em;
+	}
+
+	h1{
+		font-size: 2.0rem;
+	}
+
+	t{
+		font-size: 1.2rem;
+	}
+
+	.tab{
+		height: auto;
+		display: table-header-group;
+		font-size: 1.4rem;
+	}
+
+	.content{
+		padding-top: 20px;
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-bottom: 40px;
+		height: auto;
+		min-height: 600px;	
+	}
+
+	.portfolio{
+		display: inline-table;
+	}
+
+	.leftSide{
+		width: 70vw;
+		padding-top: 40vw;
+	}
+
+	.rightSide{
+		width: auto;
+	}
+	
+	.rightSide_scr{
+		background-image: url("../img/web/m1.png");
+		background-size: cover;
+		
+		min-width: 40px;
+		min-height: 23px;
+		width: 60vw;
+		height: 30vw;
+		max-width: 400px;
+		max-height: 234px;
+	}
+}
+
+@media all and (max-width: 383px){
+		img{
+			display: none;
+		}
+}
